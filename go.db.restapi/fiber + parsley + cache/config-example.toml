@@ -1,0 +1,13 @@
+[app]
+port=4000
+json_processor="sonic"
+
+[database]
+server="mongodb://user:pass@prefix1.mongodb.net:27017,prefix2.mongodb.net:27017,prefix3.mongodb.net:27017/test?replicaSet=replName&authSource=admin"
+database="dev"
+
+[cache]
+server="127.0.0.1:6379"
+username="default"
+password="pass"
+type="redis"
